@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  background: #131313;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+#app #headline {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ebebeb;
+}
+
+#app #gradient {
+  width: 30rem;
+  height: 30rem;
+  align-self: center;
+  margin-bottom: 4rem;
+  border-radius: 20px;
+}
+
+#app #regenerate {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  background: none;
+  border: none;
+  background-color: #ebebeb;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 0.5rem;
+  color: #131313;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#app #regenerate:hover {
+  background-color: #ebebeb;
+  transform: scale(0.97);
+}
+
+#app #copy-button {
+  font-size: 1rem;
+  display: inline-flex;
+  border: none;
+  background-color: #ebebeb;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  color: #131313;
+  font-weight: 700;
+  line-height: 1;
+  margin: 1rem;
+}
+#app #copy-button:hover {
+  transform: scale(0.97);
+  cursor: pointer;
+}
+
+#app .container {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#app #output {
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #ebebeb;
+  text-align: center;
+  align-items: center;
+  width: 20rem;
+}
+
+@media screen and (max-width: 480px) {
+  #app {
+    width: 100%;
+    padding: 1rem;
+  }
+  #app #headline {
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+
+  #app #regenerate {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+}
