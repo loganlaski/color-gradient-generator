@@ -1,6 +1,6 @@
 # Random Color Gradient Generator
 
-I created this helpful color gradient generator
+This is a useful color gradient generator created with vanilla JS.
 
-Demo can be viewed by visiting the following URL:
-https://loganlaski.github.io/color-gradient-generator/.
+A demo can be viewed by visiting https://loganlaski.github.io/color-gradient-generator/.
+
